@@ -1,0 +1,44 @@
+body {
+    background-color: #c1d3fe;
+}
+
+.container {
+    display: grid;
+    /* grid-auto-flow: column;
+    grid-auto-columns: 30rem; */
+    grid-template-columns: repeat(auto-fit 20rem);
+    gap: 2rem;
+
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2cm;
+    color: #ede7b1;
+    align-items: center;
+    background-color: #aeb8fe;
+    margin: auto;
+
+}
+section {
+   margin: 2cm; 
+
+}
+
+
+
+@media screen and (min-width: 400px) and (max-width: 800px) {
+    body {
+        background-color: #f5e6e8;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column-text {
+        columns: 2;
+    }
+}
+    
+
+
+
