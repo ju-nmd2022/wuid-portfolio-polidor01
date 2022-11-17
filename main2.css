@@ -1,54 +1,97 @@
 * {
-      font-family: Arial, Helvetica, sans-serif;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-size: xx-large;
-color: #f4d35e;
+ font-family: Arial, Helvetica, sans-serif; 
+}  
+
+header ul li {
+  display: inline;
+  padding-right: 20px;
+   text-align: center;
+   font-weight: bolder;
+   text-decoration: underline;
+ }
+
+ .flexbox ul li:hover, a:hover {
+  color: #ffb627;
+}
+
+.flexbox ul li, a{
+  text-decoration: none;
+  font-size: large;
+  color: #99d98c;
 }
 
 
+ .flexbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  margin-left: 0%;
+  font-size: 16px;
+  font-weight: 200px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #99d98c;
+   margin: 0;
+  }
+ 
+ main {
+   font-weight: bold;
+   font-size: 16px;
+   font-style: italic;
+   color: grey;
+   text-align: left;
+ }
+ 
+*{background-color: #e3f2fd;}
 
-.profile-image {
- float: right;
- position: absolute;
- right: 10px;
+h2 {
+    font-size: 1cm;
+    font-weight: bolder;
+    color: black;
+    background-color: #eff6e0;
+    
+}
+ image {
+size: 7cm;
+border: 2px;
+border-color: aliceblue;
+float: left;
+ }
+ .hike {
+    float:left;
+    border-width: 1px;
+    border-color: azure;
+    size: 1cm
+ }
+ 
+ h3 {
+   font-size: 1cm;
+    font-weight: bolder;
+    color: black;
+    background-color: #fcd5ce;
+ }
 
-    }
 
+ .asec {
+   float: left;
+   size: 0.5cm;
+   position:absolute;
+   clear:both
 
+   
+ }
 
-main {
-    font-weight: bold;
-    font-size: medium;
-    font-style: italic;
-    color: #adb5bd;
+ h4 {
+   font-size: 1cm;
+    font-weight: bolder;
+    color:black;
+    background-color: #bfd7ea;
+
 }
 
 
-h1, 
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: #0a9396;
-    background-color:#dde5b6;
-    display:inline
+.restaurant {
+   float: right;
+   size: 5px;
 }
-
-li:hover {
-    font-weight: bold;
-    color: #adc178;
-    font-size: 2rem;
-}
-
-body {
-    background-color: #fdfcdc;
-
-}
-
-footer {
-    color: #8d99ae;
-}
-
-
-

@@ -5,6 +5,14 @@
     margin:0;
 }
 
+a{
+    text-decoration: none;
+    color: #99d98c;
+}
+
+.flexbox ul li:hover, a:hover {
+    color: #ffb627;
+}
 
 
 .flexbox {
