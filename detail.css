@@ -1,0 +1,32 @@
+ body {
+    float: right;
+    margin: 60px;
+   padding-top: 560px;
+   padding-right: 90px;
+ }
+ 
+ 
+.cartoon-animation {
+    animation-name: animated-cartoon-animation;
+    animation-name: wave;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+@keyframes blink {
+  0%, 9%, 11%, 19%, 21%, 69%, 71%, 100% {
+    transform: scaleY(1);
+  }
+  10%, 20%, 70%{
+    transform: scaleY(0);
+  }
+}
+
+@keyframes wave {
+    50% {
+        transform-origin: 10%;
+        transform: rotate(75degrees) translate(2vain, -1vain);
+    }
+}
